@@ -35,5 +35,5 @@ bool task01(int x, int y) {
 		return false;
 	}
 	
-	return x % 2 == y % 2 ? true : false;
+	return x % 2 == y % 2;
 }
